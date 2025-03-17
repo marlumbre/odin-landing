@@ -31,18 +31,18 @@ body {
     padding: 8px;
 }
 
-.header-links > ul {
+.header-links ul {
     display: flex;
     margin: 0;
     padding: 0;
     gap: 16px;
 }
 
-.header-links > ul > li {
+.header-links li {
     list-style-type: none;
 }
 
-.header-links > ul > li > a {
+.header-links a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
@@ -84,11 +84,12 @@ body {
     max-width: 57%;
 }
 
-.hero-image > img {
+.hero-image img {
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 18px;
 }
 
 button {
@@ -100,4 +101,46 @@ button {
     color: #e5e7eb;
     border: 0;
     border-radius: 8px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 256px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    text-align: center;
+    padding: 32px;
+}
+
+.card img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.card-text {
+    padding: 8px;
 }
