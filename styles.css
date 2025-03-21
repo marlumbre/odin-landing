@@ -108,7 +108,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 64px 256px;
+    margin: 64px 256px;
     min-height: 500px;
 }
 
@@ -127,7 +127,7 @@ button {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 8px;
 }
 
 .card {
