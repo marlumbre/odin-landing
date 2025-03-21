@@ -109,7 +109,7 @@ button {
     justify-content: center;
     align-items: center;
     padding: 64px 256px;
-    height: 500px;
+    min-height: 500px;
 }
 
 .info-header {
@@ -119,6 +119,7 @@ button {
     color: #1F2937;
     align-items: center;
     justify-content: center;
+    margin-bottom: 64px;
 }
 
 .cards {
@@ -126,6 +127,7 @@ button {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 16px;
 }
 
 .card {
@@ -135,12 +137,11 @@ button {
     align-items: center;
     max-width: 250px;
     text-align: center;
-    padding: 32px;
 }
 
 .card img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
     border-radius: 16px;
 }
@@ -155,7 +156,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
-    height: 500px;
+    min-height: 500px;
 }
 
 .quote-text {
@@ -172,4 +173,54 @@ button {
     width: 100%;
     text-align: right;
     margin-right: 700px;
+}
+
+.cta-container {
+    display: flex;
+    padding: 64px 128px;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.cta-card {
+    display: flex;
+    padding: 56px 72px;
+    gap: 256px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 16px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-header ,.cta-text {
+    color: white;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cta-right {
+    display: flex;
+}
+
+.cta-right button {
+    outline: white solid 1px;
+    color: white
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 32px;
 }
